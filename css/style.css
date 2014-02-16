@@ -49,6 +49,20 @@ html, body {
 	text-align: center;
 }
 
+@media only screen and (max-height: 630px) {
+#title { padding-top: 170px !important; }
+}
+@media only screen and (max-height: 500px) {
+	#title {padding-top: 120px !important; }
+}
+@media only screen and (max-height: 400px) {
+	#title {padding-top: 90px !important}
+}
+@media only screen and (max-height: 300px) {
+	#title {padding-top: 50px !important}
+}
+
+
 #title h1 {
 	font-size: 75px;
 }
